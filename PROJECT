@@ -1,0 +1,7 @@
+domain: kubeedge.io
+repo: modeloperator
+resources:
+- group: ai
+  kind: InferenceModel
+  version: v1alpha1
+version: "2"
