@@ -8,8 +8,8 @@ spec:
   frameworkType: tensorflow
   image: ''
   nodeSelector:
-    kubernetes.io/hostname: iris-precision-5820
-  nodeName: iris-precision-5820
+    kubernetes.io/hostname: precision-5820
+  nodeName: precision-5820
   manifest:
     - version: '3'
       downloadURL: http://192.168.1.15/model_emotion_3.tar.gz
