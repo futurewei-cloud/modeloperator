@@ -9,7 +9,7 @@ It is supposed to run as a separate binary, fully decoupled from the KubeEdge pl
 <img src="./docs/images/modeloperatorflowchart.png">
 
 ## Quick start
-As of now (2021/02), the model operator only supports model inference on the edge nodes. 
+As of now (2021/03), the model operator only supports model inference on the edge nodes. 
 
 Ideally it should be deployed as a Kubernetes Deployment, running on the cloud, and inside a separate namespace within the cluster. 
 
@@ -25,7 +25,7 @@ Note:
 * You need to modify the inferencemodel.yaml according to where your model files are located
 1. Clone repo
 ```bash
-$ git clone https://github.com/hxhp/modeloperator.git
+$ git clone https://github.com/futurewei-cloud/modeloperator.git
 ```
 2. Create the model CRD and configmap
 ```bash
