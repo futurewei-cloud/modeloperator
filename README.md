@@ -1,3 +1,5 @@
+"This Project has been archived by the owner, who is no longer providing support.  The project remains available to authorized users on a "read only" basis."
+
 # Model Operator
 The model operator launches machine learning inference services, either on the cloud or on the edge nodes, depending on the corresponding CRD specs. 
 
